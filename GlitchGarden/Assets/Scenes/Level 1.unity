@@ -1107,6 +1107,62 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 541923605954641194, guid: 36f41a2abb275034ca33bba2d306b23e,
+        type: 3}
+      propertyPath: m_Name
+      value: Stars Text
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124770315328589642, guid: 36f41a2abb275034ca33bba2d306b23e,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124770315328589642, guid: 36f41a2abb275034ca33bba2d306b23e,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124770315328589642, guid: 36f41a2abb275034ca33bba2d306b23e,
+        type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124770315328589642, guid: 36f41a2abb275034ca33bba2d306b23e,
+        type: 3}
+      propertyPath: m_Text
+      value: 999
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124770315328589642, guid: 36f41a2abb275034ca33bba2d306b23e,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.99850786
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124770315328589642, guid: 36f41a2abb275034ca33bba2d306b23e,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124770315328589642, guid: 36f41a2abb275034ca33bba2d306b23e,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124770315328589642, guid: 36f41a2abb275034ca33bba2d306b23e,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2124770315328589642, guid: 36f41a2abb275034ca33bba2d306b23e,
+        type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 77694de528407bf429f20eef953de2d2,
+        type: 3}
+    - target: {fileID: 2124770315328589642, guid: 36f41a2abb275034ca33bba2d306b23e,
+        type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2319563257660441706, guid: 36f41a2abb275034ca33bba2d306b23e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1217,8 +1273,47 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8894779055559319733, guid: 36f41a2abb275034ca33bba2d306b23e,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -461.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8894779055559319733, guid: 36f41a2abb275034ca33bba2d306b23e,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -674.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8894779055559319733, guid: 36f41a2abb275034ca33bba2d306b23e,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 157.68121
+      objectReference: {fileID: 0}
+    - target: {fileID: 8894779055559319733, guid: 36f41a2abb275034ca33bba2d306b23e,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 251.84262
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 36f41a2abb275034ca33bba2d306b23e, type: 3}
+--- !u!1 &2319563257264803456 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 541923605954641194, guid: 36f41a2abb275034ca33bba2d306b23e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2319563257264803455}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2319563257264803457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2319563257264803456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c520880c729cbf4a9429c85f7ee38e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stars: 100
 --- !u!1001 &3115530788583553389
 PrefabInstance:
   m_ObjectHideFlags: 0
