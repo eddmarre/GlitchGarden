@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DefenderSpawner : MonoBehaviour
 {
-    [SerializeField] GameObject defender;
+    Defender defender;
     private void OnMouseDown()
     {
         SpawnDefender(GetSquareClicked());
@@ -16,7 +16,10 @@ public class DefenderSpawner : MonoBehaviour
         Vector2 gridPos = SnapToGrid(worldPos);
         return gridPos;
     }
-
+    public void SetSelectedDefender(Defender defenderToSelect)
+    {
+        defender = defenderToSelect;
+    }
     private Vector2 SnapToGrid(Vector2 rawWorldPos)
     {
         float newX = Mathf.RoundToInt(rawWorldPos.x);
@@ -25,6 +28,6 @@ public class DefenderSpawner : MonoBehaviour
     }
     void SpawnDefender(Vector2 RoundedPos)
     {
-        GameObject newDefender = Instantiate(defender, RoundedPos, Quaternion.identity) as GameObject;
+        Defender newDefender = Instantiate(defender, RoundedPos, Quaternion.identity) as Defender;
     }
 }
