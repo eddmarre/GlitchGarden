@@ -139,8 +139,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 557c586fbbfea6b4ba60bb5d729d488b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackerPrefab: {fileID: 310362718568458196, guid: 2d4f889d3ab2f7743bac1d1ee16d3c3c,
-    type: 3}
+  attackersPrefab:
+  - {fileID: 310362718568458196, guid: 2d4f889d3ab2f7743bac1d1ee16d3c3c, type: 3}
   minSpawnDelay: 2
   maxSpawnDelay: 5
 --- !u!4 &127355575 stripped
@@ -241,8 +241,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 557c586fbbfea6b4ba60bb5d729d488b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackerPrefab: {fileID: 310362718568458196, guid: 2d4f889d3ab2f7743bac1d1ee16d3c3c,
-    type: 3}
+  attackersPrefab:
+  - {fileID: 310362718568458196, guid: 2d4f889d3ab2f7743bac1d1ee16d3c3c, type: 3}
+  - {fileID: 7133497589847530496, guid: a0088d7d230a1ef45b371920dc8d5f87, type: 3}
   minSpawnDelay: 2
   maxSpawnDelay: 5
 --- !u!4 &220596140 stripped
@@ -566,8 +567,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 557c586fbbfea6b4ba60bb5d729d488b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackerPrefab: {fileID: 310362718568458196, guid: 2d4f889d3ab2f7743bac1d1ee16d3c3c,
-    type: 3}
+  attackersPrefab:
+  - {fileID: 310362718568458196, guid: 2d4f889d3ab2f7743bac1d1ee16d3c3c, type: 3}
+  - {fileID: 7133497589847530496, guid: a0088d7d230a1ef45b371920dc8d5f87, type: 3}
   minSpawnDelay: 2
   maxSpawnDelay: 5
 --- !u!4 &831454392 stripped
@@ -668,8 +670,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 557c586fbbfea6b4ba60bb5d729d488b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackerPrefab: {fileID: 310362718568458196, guid: 2d4f889d3ab2f7743bac1d1ee16d3c3c,
-    type: 3}
+  attackersPrefab:
+  - {fileID: 7133497589847530496, guid: a0088d7d230a1ef45b371920dc8d5f87, type: 3}
   minSpawnDelay: 2
   maxSpawnDelay: 5
 --- !u!4 &847876132 stripped
@@ -770,8 +772,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 557c586fbbfea6b4ba60bb5d729d488b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackerPrefab: {fileID: 310362718568458196, guid: 2d4f889d3ab2f7743bac1d1ee16d3c3c,
-    type: 3}
+  attackersPrefab:
+  - {fileID: 310362718568458196, guid: 2d4f889d3ab2f7743bac1d1ee16d3c3c, type: 3}
   minSpawnDelay: 2
   maxSpawnDelay: 5
 --- !u!4 &869444757 stripped
